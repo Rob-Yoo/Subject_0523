@@ -13,6 +13,7 @@
 		CC4991112BFF299000CB8E68 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC4991102BFF299000CB8E68 /* Base */; };
 		CC4991132BFF299100CB8E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4991122BFF299100CB8E68 /* Assets.xcassets */; };
 		CC4991162BFF299100CB8E68 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC4991152BFF299100CB8E68 /* Base */; };
+		CCAFEE1A2BFF318B00465138 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAFEE192BFF318B00465138 /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC4991122BFF299100CB8E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC4991152BFF299100CB8E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4991172BFF299100CB8E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAFEE192BFF318B00465138 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC4991122BFF299100CB8E68 /* Assets.xcassets */,
 				CC4991142BFF299100CB8E68 /* LaunchScreen.storyboard */,
 				CC4991172BFF299100CB8E68 /* Info.plist */,
+				CCAFEE192BFF318B00465138 /* SettingTableViewController.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCAFEE1A2BFF318B00465138 /* SettingTableViewController.swift in Sources */,
 				CC49910E2BFF299000CB8E68 /* ViewController.swift in Sources */,
 				CC49910A2BFF299000CB8E68 /* AppDelegate.swift in Sources */,
 				CC49910C2BFF299000CB8E68 /* SceneDelegate.swift in Sources */,
