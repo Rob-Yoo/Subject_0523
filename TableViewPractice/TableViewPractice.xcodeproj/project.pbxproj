@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC05722C2C02000A001F2AD6 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05722B2C02000A001F2AD6 /* ShoppingTableViewController.swift */; };
+		CC0572302C020AB5001F2AD6 /* WishListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05722F2C020AB5001F2AD6 /* WishListCellTableViewCell.swift */; };
 		CC49910A2BFF299000CB8E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4991092BFF299000CB8E68 /* AppDelegate.swift */; };
 		CC49910C2BFF299000CB8E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49910B2BFF299000CB8E68 /* SceneDelegate.swift */; };
 		CC49910E2BFF299000CB8E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49910D2BFF299000CB8E68 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC05722B2C02000A001F2AD6 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		CC05722F2C020AB5001F2AD6 /* WishListCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCellTableViewCell.swift; sourceTree = "<group>"; };
 		CC4991062BFF299000CB8E68 /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4991092BFF299000CB8E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC49910B2BFF299000CB8E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				CC4991142BFF299100CB8E68 /* LaunchScreen.storyboard */,
 				CC4991172BFF299100CB8E68 /* Info.plist */,
 				CCAFEE192BFF318B00465138 /* SettingTableViewController.swift */,
+				CC05722B2C02000A001F2AD6 /* ShoppingTableViewController.swift */,
+				CC05722F2C020AB5001F2AD6 /* WishListCellTableViewCell.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCAFEE1A2BFF318B00465138 /* SettingTableViewController.swift in Sources */,
+				CC0572302C020AB5001F2AD6 /* WishListCellTableViewCell.swift in Sources */,
 				CC49910E2BFF299000CB8E68 /* ViewController.swift in Sources */,
 				CC49910A2BFF299000CB8E68 /* AppDelegate.swift in Sources */,
+				CC05722C2C02000A001F2AD6 /* ShoppingTableViewController.swift in Sources */,
 				CC49910C2BFF299000CB8E68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
