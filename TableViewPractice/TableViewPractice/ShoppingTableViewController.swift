@@ -92,19 +92,23 @@ extension ShoppingTableViewController {
         let newShoppingData = Shopping(wishContent: wishContent)
         self.shoppingData.append(newShoppingData)
         self.tableView.reloadData()
+        
+        self.tableView.endEditing(true)
     }
     
     @objc private func completeButtonTapped(sender: UIButton) {
         let idx = sender.tag
-        
+        let indexPath = IndexPath(row: idx, section: 0)
+
         self.shoppingData[idx].isComplete.toggle()
-        self.tableView.reloadData()
+        self.tableView.reloadRows(at: [indexPath], with: .none)
     }
     
     @objc private func starButtonTapped(sender: UIButton) {
         let idx = sender.tag
-        
+        let indexPath = IndexPath(row: idx, section: 0)
+
         self.shoppingData[idx].isStar.toggle()
-        self.tableView.reloadData()
+        self.tableView.reloadRows(at: [indexPath], with: .none)
     }
 }
